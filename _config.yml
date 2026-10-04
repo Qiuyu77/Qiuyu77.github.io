@@ -102,7 +102,7 @@ avatar:/assets/img/avatar.jpg
 
 # 网站全局社交分享预览图片的 URL，用于 SEO 的 og:image。
 # 可以通过文章 front matter 中的 page.image 覆盖。
-social_preview_image:/assets/img/avatar.jpg
+social_preview_image:
 
 # 是否全局启用文章目录 TOC
 toc: true
