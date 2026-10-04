@@ -1,10 +1,4 @@
----
-title: 关于
-icon: fas fa-info-circle
-order: 4
----
-
-# 你好，我是邱宇 👋
+#  你好，我是邱宇 👋
 
 ![头像](/assets/img/avatar.jpg){: .right w="200" }
 
