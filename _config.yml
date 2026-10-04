@@ -33,13 +33,13 @@ twitter:
 social:
   # 修改为你的姓名。
   # 它将作为文章的默认作者以及页脚中的版权归属者显示
-  name: 邱宇
+  name: qiuyu
   email: 3384138035@qq.com # 修改为你的邮箱地址
   fediverse_handle: # 填写你的 Fediverse 账号，例如："@username@domain.com"
   links:
     # 第一个元素将作为版权归属者的链接
     - https://twitter.com/Yuirariyuu # 修改为你的 Twitter 主页
-    - https://github.com/username # 修改为你的 GitHub 主页
+    - https://github.com/qiuyu77 # 修改为你的 GitHub 主页
     # 取消下面的注释即可添加更多社交链接
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
