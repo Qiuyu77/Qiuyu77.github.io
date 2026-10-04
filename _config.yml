@@ -14,7 +14,7 @@ timezone:
 
 title: Qiuyu^blogs # 网站主标题
 
-tagline: 我的博客 # 将显示为副标题
+tagline: 我的博客test # 将显示为副标题
 
 description: >- # 用于 SEO 元数据和 Atom Feed
   桂林电子科技大学计算机科学与技术专业本科生，专注于算法、机器学习、深度学习与计算机视觉，
