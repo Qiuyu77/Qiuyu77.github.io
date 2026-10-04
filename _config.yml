@@ -3,174 +3,133 @@
 # 导入主题
 theme: jekyll-theme-chirpy
 
-# 网页语言 › http://www.lingoes.net/en/translator/langcode.htm
-# 如果它与 `_data/locales` 文件夹中的某个文件同名，布局语言也将被更改，
-# 否则，布局语言将使用默认值 'en'。
+# 网页语言
 lang: zn-ch
 
-# 更改为你的时区 › https://zones.arilyn.cc
-timezone:
+# 时区
+timezone: Asia/Shanghai
 
-# jekyll-seo-tag 设置 › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
-
+# jekyll-seo-tag 设置
 title: Qiuyu^blogs # 主标题
 
-tagline: 我的博客 # 将显示为副标题
+tagline: 我的博客 # 副标题
 
 description: >- # 用于 SEO meta 和 atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  邱宇的个人博客，记录学习与成长。
 
-# 填写站点的协议和主机名。
-# 例如 'https://username.github.io'，注意结尾没有 '/'。
-url: ""
+# 站点地址
+url: "https://Qiuyu77.github.io"
 
 github:
-  username: github_username # 更改为你的 GitHub 用户名
+  username: Qiuyu77 # 你的 GitHub 用户名
 
 twitter:
-  username: Yuirariyuu # 更改为你的 Twitter 用户名
+  username: Yuirariyuu # 你的 Twitter 用户名
 
 social:
-  # 更改为你的全名。
-  # 它将显示为文章的默认作者和页脚中的版权所有者
-  name: your_full_name
-  email: 3384138035@qq.com # 更改为你的邮箱地址
-  fediverse_handle: # 填写你的 fediverse 账号。例如 "@username@domain.com"
+  name: 邱宇 # 你的全名
+  email: 3384138035@qq.com # 你的邮箱
+  fediverse_handle:
   links:
-    # 第一个元素作为版权所有者的链接
-    - https://twitter.com/username # 更改为你的 Twitter 主页
-    - https://github.com/username # 更改为你的 GitHub 主页
-    # 取消注释以添加更多社交链接
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/Qiuyu77   # 第一个链接作为版权所有者链接
+    - https://twitter.com/Yuirariyuu # 你的 Twitter 主页
 
-# 站点验证设置
+# 站点验证设置（留空即可）
 webmaster_verifications:
-  google: # 填写你的 Google 验证码
-  bing: # 填写你的 Bing 验证码
-  alexa: # 填写你的 Alexa 验证码
-  yandex: # 填写你的 Yandex 验证码
-  baidu: # 填写你的 Baidu 验证码
-  facebook: # 填写你的 Facebook 验证码
+  google:
+  bing:
+  alexa:
+  yandex:
+  baidu:
+  facebook:
 
-# ↑ --------------------------
-# `jekyll-seo-tag` 设置结束
-
-# Web 分析设置
+# Web 分析设置（留空即可）
 analytics:
   google:
-    id: # 填写你的 Google Analytics ID
+    id:
   goatcounter:
-    id: # 填写你的 GoatCounter ID
+    id:
   umami:
-    id: # 填写你的 Umami ID
-    domain: # 填写你的 Umami 域名
+    id:
+    domain:
   matomo:
-    id: # 填写你的 Matomo ID
-    domain: # 填写你的 Matomo 域名
+    id:
+    domain:
   cloudflare:
-    id: # 填写你的 Cloudflare Web Analytics token
+    id:
   fathom:
-    id: # 填写你的 Fathom Site ID
+    id:
 
 # 页面浏览量设置
 pageviews:
-  provider: # 目前仅支持 'goatcounter'
+  provider:
 
-# 首选配色方案设置。
-#
-# 注意：保持为空将默认跟随系统首选颜色，
-# 并且侧边栏左下角会有一个开关在深色和浅色主题之间切换
-# 在侧边栏的左下角。
-#
-# 可用选项：
-#
-#     light — 使用浅色配色方案
-#     dark — 使用深色配色方案
-#
-theme_mode: # [light | dark]
+# 配色方案：可留空跟随系统，或填 light / dark
+theme_mode: dark
 
-# 媒体资源的 CDN 端点。
-# 注意，一旦分配，CDN URL
-# 将被添加到所有以 '/' 开头的媒体资源（站点头像、文章图片、音频和视频文件）路径中
-#
-# 例如 'https://cdn.com'
+# CDN 端点（留空）
 cdn:
 
-# 侧边栏上的头像，支持本地或 CORS 资源
-avatar:
+# 侧边栏头像，上传图片到 assets/img/avatar.jpg 后填写路径
+avatar: /assets/img/avatar.jpg
 
-# 用于 SEO `og:image` meta 标签的站点范围社交预览图片的 URL。
-# 它可以通过 front matter 中的自定义 `page.image` 覆盖。
-social_preview_image: # 字符串，本地或 CORS 资源
+# 社交预览图片（留空）
+social_preview_image:
 
-# 布尔类型，文章中 TOC 的全局开关。
+# 文章目录开关
 toc: true
 
+# 编辑文章操作（默认关闭）
 actions:
-  # 在每篇文章页面显示“编辑此文章”操作以鼓励贡献。
   edit_post:
-    enabled: false # 设置为 true 以显示“编辑此文章”操作。
-    url: "" # 仓库基础 URL，例如 https://github.com/cotes2020/jekyll-theme-chirpy/edit/master
-    # 为编辑链接使用动态或静态 URL。
-    # 如果 `static_url` 为 false，文章的路径将附加到上面的 `url` 作为最终编辑链接。
-    # 如果 URL 应保持不变，则设置为 true，这意味着每篇文章将共享相同的编辑链接。
-    static_url: false # [ true | false ]
+    enabled: false
+    url: ""
+    static_url: false
 
+# 评论系统（默认禁用，可后续配置）
 comments:
-  # 文章评论系统的全局开关。保持为空表示禁用。
-  provider: # [disqus | utterances | giscus]
-  # 提供商选项如下：
+  provider:
   disqus:
-    shortname: # 填写 Disqus shortname。› https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances 设置 › https://utteranc.es/
+    shortname:
   utterances:
-    repo: # <gh-用户名>/<仓库>
-    issue_term: # < url | pathname | title | ...>
-  # Giscus 选项 › https://giscus.app
+    repo:
+    issue_term:
   giscus:
-    repo: # <gh-用户名>/<仓库>
+    repo:
     repo_id:
     category:
     category_id:
-    mapping: # 可选，默认为 'pathname'
-    strict: # 可选，默认为 '0'
-    input_position: # 可选，默认为 'bottom'
-    lang: # 可选，默认为 `site.lang` 的值
-    reactions_enabled: # 可选，默认为 `1` 的值
+    mapping:
+    strict:
+    input_position:
+    lang:
+    reactions_enabled:
 
-# 自托管静态资源，可选 › https://github.com/cotes2020/chirpy-static-assets
+# 自托管静态资源（默认关闭）
 assets:
   self_host:
-    enabled: # 布尔值，保持为空表示 false
-    # 指定 Jekyll 环境，空表示两者
-    # 仅当 `assets.self_host.enabled` 为 'true' 时有效
-    env: # [development | production]
+    enabled:
+    env:
 
+# PWA 设置
 pwa:
-  enabled: true # PWA 功能（可安装）的选项
+  enabled: true
   cache:
-    enabled: true # PWA 离线缓存的选项
-    # 此处定义的路径将从 PWA 缓存中排除。
-    # 通常其值是另一个网站的 `baseurl`，
-    # 该网站与当前网站共享同一域名。
+    enabled: true
     deny_paths:
-      # - "/example"  # 匹配 `<SITE_URL>/example/*` 的 URL 不会被 PWA 缓存
 
+# 分页数量
 paginate: 10
 
-# 站点的 base URL
+# 站点 base URL（留空）
 baseurl: ""
 
 # ------------ 以下选项不建议修改 ------------------
-
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge 选项 › https://github.com/jneen/rouge#full-options
+  syntax_highlighter_opts:
     css_class: highlight
-    # default_lang: console
     span:
       line_numbers: false
     block:
@@ -184,14 +143,12 @@ collections:
 
 defaults:
   - scope:
-      path: "" # 空字符串表示项目中的所有文件
+      path: ""
       type: posts
     values:
       layout: post
-      comments: true # 在文章中启用评论。
-      toc: true # 在文章中显示 TOC 列。
-      # 除非你足够自信，否则不要修改以下参数
-      # 以更新此项目中所有其他文章链接的代码。
+      comments: true
+      toc: true
       permalink: /posts/:title/
   - scope:
       path: _drafts
@@ -199,7 +156,7 @@ defaults:
       comments: false
   - scope:
       path: ""
-      type: tabs # 参见 `site.collections`
+      type: tabs
     values:
       layout: page
       permalink: /:title/
