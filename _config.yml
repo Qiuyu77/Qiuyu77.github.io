@@ -119,25 +119,27 @@ actions:
 
 comments:
   # 全局评论系统开关。留空表示禁用。
-  provider: # [disqus | utterances | giscus]
+  provider: giscus
   # 以下为各评论系统的配置选项。
   disqus:
     shortname: # 填写 Disqus shortname › https://help.disqus.com/en/articles/1717111-how-to-get-a-shortname
+
   # utterances 设置 › https://utteranc.es/
   utterances:
     repo: # <GitHub用户名>/<仓库名>
     issue_term: # < url | pathname | title | ...>
+
   # Giscus 设置 › https://giscus.app
   giscus:
-    repo: # <GitHub用户名>/<仓库名>
-    repo_id:
-    category:
-    category_id:
-    mapping: # 可选，默认值为 'pathname'
-    strict: # 可选，默认值为 '0'
-    input_position: # 可选，默认值为 'bottom'
-    lang: # 可选，默认使用 site.lang
-    reactions_enabled: # 可选，默认值为 '1'
+    repo: qiuyu77/qiuyu77.github.io
+    repo_id: R_kgDOU7evcw
+    category: Announcements
+    category_id: DIC_kwDOU7evc84DHCPq
+    mapping: pathname
+    strict: 0
+    input_position: bottom
+    lang: zh-CN
+    reactions_enabled: 1
 
 # 自托管静态资源，可选 › https://github.com/cotes2020/chirpy-static-assets
 assets:
