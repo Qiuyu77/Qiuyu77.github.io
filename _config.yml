@@ -59,23 +59,23 @@ webmaster_verifications:
 # 网站数据统计设置
 analytics:
   google:
-    id: # 填写你的 Google Analytics ID
+    id:
   goatcounter:
-    id: # 填写你的 GoatCounter ID
+    id: qiuyu77
   umami:
-    id: # 填写你的 Umami ID
-    domain: # 填写你的 Umami 域名
+    id:
+    domain:
   matomo:
-    id: # 填写你的 Matomo ID
-    domain: # 填写你的 Matomo 域名
+    id:
+    domain:
   cloudflare:
-    id: # 填写你的 Cloudflare Web Analytics Token
+    id:
   fathom:
-    id: # 填写你的 Fathom Site ID
+    id:
 
 # 页面访问量设置
 pageviews:
-  provider: # 目前仅支持 'goatcounter'
+  provider: goatcounter
 
 # 首选配色方案设置
 #
